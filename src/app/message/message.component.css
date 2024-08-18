@@ -1,0 +1,26 @@
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: rgb(194, 162, 230);
+  background-color: rgb(213, 206, 220);
+
+  padding: 10px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.message-container h5 {
+  margin: 0;
+}
+
+/* .message-div {
+  background-color: white;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100%;
+  padding: 3px;
+  border-radius: 7px;
+  margin-top: 3px;
+} */

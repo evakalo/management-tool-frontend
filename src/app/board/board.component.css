@@ -1,0 +1,56 @@
+.board-wrapper {
+  width: 100%;
+  background-color: rgb(167, 167, 218);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.header-button {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+.header-button h2 {
+  margin-bottom: 5px;
+  color: white;
+}
+.lists-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.board-title {
+  margin: 10px auto;
+}
+.list-button {
+  margin: 10px;
+  width: 100px;
+  background-color: rgb(71, 73, 122);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#title-display {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#title-edit {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .header-button {
+    align-items: center;
+  }
+  .lists-section {
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,48 @@
+.card-wrapper {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px 0;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 10px;
+}
+.card-wrapper h4 {
+  margin: 5px;
+}
+.comment-button {
+  width: 100px;
+  background-color: rgb(71, 73, 122);
+  color: white;
+  border: none;
+  padding: 10px 5px;
+  font-weight: bold;
+  margin: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.comment-input {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.messages-wrapper {
+  /* background-color: rgb(149, 172, 195); */
+  border-radius: 10px;
+}
+.description-input {
+  background-color: rgb(194, 162, 230);
+  background-color: rgb(213, 206, 220);
+  padding: 10px;
+  margin: 10px 10px 0px 10px;
+  border-radius: 7px;
+}
+
+@media (max-width: 600px) {
+  .card-wrapper {
+    padding: 10px 5px;
+  }
+}
